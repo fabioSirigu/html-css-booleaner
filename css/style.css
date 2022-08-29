@@ -1,6 +1,8 @@
 body {
       width: 1200px;
 }
+
+/* header */
 header {  
       margin: 0;
       background-image: url(../img/pattern.png);
@@ -10,7 +12,11 @@ header {
       width: 200px;
       margin: 30px 0px 0px 10px;
 }
+/* /header */
 
+/* main */
+
+/* title_image */
 h1 {
       margin: 0;
 }
@@ -28,7 +34,36 @@ h1 {
       margin: 0;
       font-size: 12px;
 }
+/* /title_image */
+
+/* section content */
+
+.highlighted {
+      background-color: yellow;
+}
 
 .u_list {
       padding-left: 15px;
 }
+/* /section content */
+
+/* table */
+table {
+      width: 100%;
+      text-align: left;
+      border-collapse: collapse;
+}
+
+thead {
+      color: white;
+      background-color: aqua;
+}
+
+
+.tab_blue {
+      background-color: lightblue;
+}
+td {
+      width: calc(100%/3);
+}
+/* /table */
