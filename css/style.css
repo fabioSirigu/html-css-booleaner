@@ -1,7 +1,7 @@
 body {
-      width: max-content;
+      width: 1200px;
 }
-header {
+header {  
       margin: 0;
       background-image: url(../img/pattern.png);
       background-color: #006cfa;
@@ -27,4 +27,8 @@ h1 {
 .ph_description {
       margin: 0;
       font-size: 12px;
+}
+
+.u_list {
+      padding-left: 15px;
 }
